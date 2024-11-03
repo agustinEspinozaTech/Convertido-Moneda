@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app-pesos-dolar</title>
+    <style>
+        input {
+            margin-top: 10px;
+        }
+
+        form>div:first-of-type {
+            display: inline;
+
+        }
+
+        form>div:nth-of-type(2) {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Conversor a dólares</h1>
+    <div>
+        <form>
+            <label for="">Ingrese monto $</label>
+            <input min="1" type="number">
+            <br>
+            <label for="">Valor del dolar en $</label>
+            <input type="number">
+            <label for="actualización"> - Actualización</label>
+            <input type="checkbox">
+            <div></div>
+            <br>
+            <div></div>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
